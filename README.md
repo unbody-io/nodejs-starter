@@ -86,9 +86,8 @@ The backend is configured with the following AI services:
 ## Project Settings
 
 The project is configured with:
-- Project Name: sanoflow-io-demo
-- Website URL: https://novomed.com
-- Storage Path: SANOFLOW_STORAGE/kb
+- Project Name: the name of Unbody project
+- Storage Path: where the files are stored
 
 Supported file extensions:
 - PDF, DOCX, DOC, TXT, MD, CSV, XLS, XLSX
