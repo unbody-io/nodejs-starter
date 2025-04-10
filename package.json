@@ -1,0 +1,29 @@
+{
+  "name": "unbody-cloud",
+  "version": "1.0.0",
+  "description": "A Unbody project",
+  "scripts": {
+    "dev": "parcel frontend/index.html",
+    "build:frontend": "parcel build frontend/index.html",
+    "unbody-script": "TS_NODE_PROJECT=tsconfig.server.json node -r ts-node/register -r dotenv/config -r tsconfig-paths/register /setup/run.ts",
+    "unbody-script:setup-project": "yarn unbody-script ./setup-project.ts",
+    "unbody-script:data-sources:push-datasource-create": "yarn unbody-script ./setup/data-sources/push-datasource.create.ts",
+    "unbody-script:data-sources:push-datasource-update": "yarn unbody-script ./setup/data-sources/push-datasource.update.ts"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.3.3",
+    "unbody": "^0.0.12",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.10.3",
+    "@types/node": "^20.11.19",
+    "async": "^3.2.6",
+    "concurrently": "^8.2.2",
+    "parcel": "^2.10.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
