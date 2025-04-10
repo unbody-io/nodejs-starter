@@ -67,12 +67,6 @@ These commands should be run whenever your local data changes:
    ```
    This pushes any new or updated content to Unbody.
 
-2. Seed initial data (if needed):
-   ```bash
-   yarn unbody-backend:seed-recipes
-   ```
-   This can be used to populate initial data in your Unbody project.
-
 ## Backend Configuration
 
 The backend is configured with the following AI services:
